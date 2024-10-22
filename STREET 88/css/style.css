@@ -1,0 +1,355 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    width: 100%;
+    height: 70px;
+    background: #0C0C0C;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
+
+.nav__icons {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.nav__title {
+    color: #ffffff;
+}
+
+
+.nav__list {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+
+.nav__link {
+    color: #FFF;
+    text-align: right;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header__menu {
+    width: 100%;
+    background-color: black;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px;
+}
+
+.logo {
+    width: 216px;
+    height: 53px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 4px solid #06600f;
+    background: rgba(10, 148, 24, 0.76);
+
+    color: #FFF;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+    column-gap: 28px;
+}
+
+.header__link {
+    color: #FFF;
+    text-align: right;
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: .5s;
+}
+
+.header__link:hover {
+    background: rgba(105, 207, 23, 0.75);
+    width: 93px;
+    height: 65px;
+    padding: 22px 14px;
+}
+
+.header__burger {
+    width: 100%;
+    height: 700px;
+    background: url("../img/food-burger-wallpaper-preview\ 1.jpg") no-repeat center center/cover;
+
+}
+
+.header__burger-title {
+    padding-top: 167px;
+    color: #69CF17;
+    font-family: "Raleway";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.header__burger-mititle {
+    padding-top: 18px;
+    color: #69CF17;
+    font-family: "Raleway";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+}
+
+.header__burger-text {
+    padding-top: 18px;
+    color: #FFF;
+    font-family: "Raleway";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.header__burger-btn {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    align-items: center;
+}
+
+.header__burger-link {
+    background: rgba(105, 207, 23, 0.50);
+    backdrop-filter: blur(9px);
+    color: #FFF;
+    text-align: right;
+    font-family: "Raleway";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 25px;
+    padding: 33px 76px;
+
+}
+
+.header__burger-button {
+    border-radius: 6px;
+    background: linear-gradient(90deg, #69CF17 0%, #417D11 100%);
+    color: #FFF;
+    text-align: right;
+    font-family: "Raleway";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 15px 70px;
+}
+
+.main {
+    margin-top: 650px;
+    background: #393636;
+    width: 100%;
+}
+
+.cards_1 {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    padding-right: 20px;
+    padding-top: 93px;
+}
+
+.cards_2 {
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    padding-right: 20px;
+    padding-top: 93px;
+}
+
+.card {
+    border-radius: 4px;
+    border: 1px solid #fff;
+    background: #0C0C0C;
+}
+
+.card__image {
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.card__image:hover{
+    background: rgba(105, 207, 23, 0.75);
+}
+
+.card__title {
+    padding-top: 15px;
+    padding-left: 15px;
+    color: #FFF;
+    font-family: 'Raleway';
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+}
+
+.card__text {
+    padding-top: 15px;
+    padding-left: 15px;
+    color: #FFF;
+    font-family: 'Raleway';
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.headline{
+text-align: center;
+padding-bottom: 20px;
+color: #69CF17;
+font-family: Raleway;
+font-size: 50px;
+font-style: normal;
+font-weight: 600;
+line-height: 40px; 
+
+}
+
+.Maps {
+    padding-top: 20px;
+}
+
+.Maps__title {
+    text-align: center;
+    padding-bottom: 20px;
+    color: #69CF17;
+    font-family: 'Raleway';
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.footer {
+    background: linear-gradient(180deg, #000 0%, rgba(105, 207, 23, 0.50) 100%);
+}
+
+.footer__nav {
+    padding-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+
+    width: 216px;
+    height: 53px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 4px solid #06600f;
+    background: rgba(10, 148, 24, 0.76);
+
+    color: #FFF;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+
+}
+
+.tell {
+    color: #FFF;
+    text-align: right;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer__menu {
+    padding-top: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 138px;
+}
+
+.footer__list {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.footer__link {
+    color: #FFF;
+    text-align: center;
+    font-family: ' Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.itLIVE {
+    padding-top: 19px;
+    background: #1A3406;
+    padding-bottom: 19px;
+}
+
+.itLIVE__title {
+    text-align: center;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
